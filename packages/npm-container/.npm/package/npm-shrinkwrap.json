@@ -1,0 +1,390 @@
+{
+  "dependencies": {
+    "body-parser": {
+      "version": "1.13.2",
+      "dependencies": {
+        "bytes": {
+          "version": "2.1.0"
+        },
+        "content-type": {
+          "version": "1.0.1"
+        },
+        "debug": {
+          "version": "2.2.0",
+          "dependencies": {
+            "ms": {
+              "version": "0.7.1"
+            }
+          }
+        },
+        "depd": {
+          "version": "1.0.1"
+        },
+        "http-errors": {
+          "version": "1.3.1",
+          "dependencies": {
+            "inherits": {
+              "version": "2.0.1"
+            },
+            "statuses": {
+              "version": "1.2.1"
+            }
+          }
+        },
+        "iconv-lite": {
+          "version": "0.4.11"
+        },
+        "on-finished": {
+          "version": "2.3.0",
+          "dependencies": {
+            "ee-first": {
+              "version": "1.1.1"
+            }
+          }
+        },
+        "qs": {
+          "version": "4.0.0"
+        },
+        "raw-body": {
+          "version": "2.1.4",
+          "dependencies": {
+            "iconv-lite": {
+              "version": "0.4.12"
+            },
+            "unpipe": {
+              "version": "1.0.0"
+            }
+          }
+        },
+        "type-is": {
+          "version": "1.6.9",
+          "dependencies": {
+            "media-typer": {
+              "version": "0.3.0"
+            },
+            "mime-types": {
+              "version": "2.1.7",
+              "dependencies": {
+                "mime-db": {
+                  "version": "1.19.0"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "exposify": {
+      "version": "0.4.3",
+      "dependencies": {
+        "globo": {
+          "version": "1.0.2",
+          "dependencies": {
+            "accessory": {
+              "version": "1.0.1",
+              "dependencies": {
+                "dot-parts": {
+                  "version": "1.0.1"
+                }
+              }
+            },
+            "is-defined": {
+              "version": "1.0.0"
+            },
+            "ternary": {
+              "version": "1.0.0"
+            }
+          }
+        },
+        "has-require": {
+          "version": "1.1.0"
+        },
+        "map-obj": {
+          "version": "1.0.1"
+        },
+        "replace-requires": {
+          "version": "1.0.3",
+          "dependencies": {
+            "detective": {
+              "version": "4.1.1",
+              "dependencies": {
+                "acorn": {
+                  "version": "1.2.2"
+                },
+                "defined": {
+                  "version": "1.0.0"
+                },
+                "escodegen": {
+                  "version": "1.7.0",
+                  "dependencies": {
+                    "estraverse": {
+                      "version": "1.9.3"
+                    },
+                    "esutils": {
+                      "version": "2.0.2"
+                    },
+                    "esprima": {
+                      "version": "1.2.5"
+                    },
+                    "optionator": {
+                      "version": "0.5.0",
+                      "dependencies": {
+                        "prelude-ls": {
+                          "version": "1.1.2"
+                        },
+                        "deep-is": {
+                          "version": "0.1.3"
+                        },
+                        "wordwrap": {
+                          "version": "0.0.3"
+                        },
+                        "type-check": {
+                          "version": "0.3.1"
+                        },
+                        "levn": {
+                          "version": "0.2.5"
+                        },
+                        "fast-levenshtein": {
+                          "version": "1.0.7"
+                        }
+                      }
+                    },
+                    "source-map": {
+                      "version": "0.2.0",
+                      "dependencies": {
+                        "amdefine": {
+                          "version": "1.0.0"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "has-require": {
+              "version": "1.2.1",
+              "dependencies": {
+                "escape-string-regexp": {
+                  "version": "1.0.3"
+                }
+              }
+            },
+            "patch-text": {
+              "version": "1.0.2"
+            },
+            "xtend": {
+              "version": "4.0.0"
+            }
+          }
+        },
+        "through2": {
+          "version": "0.4.2",
+          "dependencies": {
+            "readable-stream": {
+              "version": "1.0.33",
+              "dependencies": {
+                "core-util-is": {
+                  "version": "1.0.1"
+                },
+                "isarray": {
+                  "version": "0.0.1"
+                },
+                "string_decoder": {
+                  "version": "0.10.31"
+                },
+                "inherits": {
+                  "version": "2.0.1"
+                }
+              }
+            },
+            "xtend": {
+              "version": "2.1.2",
+              "dependencies": {
+                "object-keys": {
+                  "version": "0.4.0"
+                }
+              }
+            }
+          }
+        },
+        "transformify": {
+          "version": "0.1.2",
+          "dependencies": {
+            "readable-stream": {
+              "version": "1.1.13",
+              "dependencies": {
+                "core-util-is": {
+                  "version": "1.0.1"
+                },
+                "isarray": {
+                  "version": "0.0.1"
+                },
+                "string_decoder": {
+                  "version": "0.10.31"
+                },
+                "inherits": {
+                  "version": "2.0.1"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "faker": {
+      "version": "3.0.0"
+    },
+    "react": {
+      "version": "0.13.3",
+      "dependencies": {
+        "envify": {
+          "version": "3.4.0",
+          "dependencies": {
+            "through": {
+              "version": "2.3.8"
+            },
+            "jstransform": {
+              "version": "10.1.0",
+              "dependencies": {
+                "base62": {
+                  "version": "0.1.1"
+                },
+                "esprima-fb": {
+                  "version": "13001.1001.0-dev-harmony-fb"
+                },
+                "source-map": {
+                  "version": "0.1.31",
+                  "dependencies": {
+                    "amdefine": {
+                      "version": "1.0.0"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "react-motion": {
+      "version": "0.3.0",
+      "dependencies": {
+        "performance-now": {
+          "version": "0.2.0"
+        },
+        "raf": {
+          "version": "3.1.0"
+        }
+      }
+    },
+    "react-visibility-sensor": {
+      "version": "2.1.0",
+      "dependencies": {
+        "reactify": {
+          "version": "0.14.1",
+          "dependencies": {
+            "jstransform": {
+              "version": "6.3.2",
+              "dependencies": {
+                "base62": {
+                  "version": "0.1.1"
+                },
+                "esprima-fb": {
+                  "version": "6001.1.0-dev-harmony-fb"
+                },
+                "source-map": {
+                  "version": "0.1.31",
+                  "dependencies": {
+                    "amdefine": {
+                      "version": "1.0.0"
+                    }
+                  }
+                }
+              }
+            },
+            "through": {
+              "version": "2.3.8"
+            },
+            "react-tools": {
+              "version": "0.11.2",
+              "dependencies": {
+                "commoner": {
+                  "version": "0.9.8",
+                  "dependencies": {
+                    "q": {
+                      "version": "1.0.1"
+                    },
+                    "recast": {
+                      "version": "0.7.5",
+                      "dependencies": {
+                        "source-map": {
+                          "version": "0.1.32",
+                          "dependencies": {
+                            "amdefine": {
+                              "version": "1.0.0"
+                            }
+                          }
+                        },
+                        "cls": {
+                          "version": "0.1.5"
+                        },
+                        "ast-types": {
+                          "version": "0.4.13",
+                          "dependencies": {
+                            "depd": {
+                              "version": "1.0.1"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "commander": {
+                      "version": "2.2.0"
+                    },
+                    "graceful-fs": {
+                      "version": "2.0.3"
+                    },
+                    "glob": {
+                      "version": "3.2.11",
+                      "dependencies": {
+                        "inherits": {
+                          "version": "2.0.1"
+                        },
+                        "minimatch": {
+                          "version": "0.3.0",
+                          "dependencies": {
+                            "lru-cache": {
+                              "version": "2.7.0"
+                            },
+                            "sigmund": {
+                              "version": "1.0.1"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "mkdirp": {
+                      "version": "0.3.5"
+                    },
+                    "private": {
+                      "version": "0.1.6"
+                    },
+                    "install": {
+                      "version": "0.1.8"
+                    },
+                    "iconv-lite": {
+                      "version": "0.2.11"
+                    }
+                  }
+                },
+                "esprima-fb": {
+                  "version": "6001.1001.0-dev-harmony-fb"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

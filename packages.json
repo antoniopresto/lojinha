@@ -1,0 +1,7 @@
+{
+    "exposify": "0.4.3",
+    "faker": "3.0.0",
+    "body-parser": "1.13.2",
+    "react-visibility-sensor": "2.1.0",
+    "react-motion": "0.3.0"
+}
